@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+        <!-- including FusionCharts core package JS files -->
+        <script src="https://static.fusioncharts.com/code/latest/fusioncharts.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+        <script src="scripts/app.js"></script>
+
+        <title>GMT HTML</title>
+         <link rel="stylesheet" href="stylesheets/index.css">
+    </head>
+    <body>
+        <div class ="heading">
+            <h1>Final Grades Graph</h1>
+        </div>
+        <hr>
+        <div class = "container">
+            <b>Interactive Vizualization</b>
+            <div>
+                    <div class="dropdown">
+                            <button class="dropbtn">Select Option</button>
+                            <div class="dropdown-content">
+                              <a href = "internet.html">Internet Access</a>
+                              <a href = "fail.html">Number of Failures</a>
+                              <a href = "study.html">Amount of Study Time</a>
+                              <a href = "absence.html">Number of Absences</a>
+                            </div>
+                <!-- <select>
+                    <option value = "">Please choose a graph</option>
+                    <option value = "internet" href = "internet.html">Internet</option>
+                    <option value = "fail" href = "fail.html">Failures</option>
+                    <option value = "study" href = "study.html"> Study Time</option>
+                    <option value = "absence" href = "absence.html">Absences</option>
+                </select>
+            </div>
+            <div class = "internet box">
+                    <img id = "internet" src = "pictures/Internet.png">
+            </div>
+            <div class = "fail box">
+                    <img id = "fail" src = "pictures/Failure.png">
+            </div>
+            <div class = "study box">
+                    <img id = "study" src = "pictures/Study Time.png">
+            </div>
+            <div class = "absence box">
+                    <img id = "absence" src = "pictures/Absences.png">
+            </div> -->
+        </div>
+        <hr>
+        <div class = "container">
+            <div class = "health">
+                <img id = "health" src = "pictures/Health.png">
+            </div>
+        </div>
+        <hr>
+        <div class = "container">
+                <div class = "travel">
+                        <img id = "travel" src = "pictures/Travel Time.png">
+                    </div>
+            </div>
+
+            <script>
+
+                    function genFunction(data) {
+                      var cdata = [];
+                      var len = data.length;
+                      for(var i=1; i<len; i++) {
+                        cdata.push({
+                          label: data[i]['label'],
+                          value: data[i]['value']
+                        });
+                      }
+                    var firebaseChart = new FusionCharts({
+                        type: 'area2d',
+                        renderAt: 'chart-container',
+                        width: '650',
+                        height: '400',
+                        dataFormat: 'json',
+                        dataSource: {
+                            "chart": {
+                                "caption": "Interactive Vizualization",
+                                "subCaption": "Last 7 Days{br}ACME Inc.",
+                                "subCaptionFontBold": "0",
+                                "captionFontSize": "20",
+                                "subCaptionFontSize": "17",
+                                "captionPadding": "15",
+                                "captionFontColor": "#8C8C8C",
+                                "baseFontSize": "14",
+                                "baseFont": "Barlow",
+                                "canvasBgAlpha": "0",
+                                "bgColor": "#FFFFFF",
+                                "bgAlpha": "100",
+                                "showBorder": "0",
+                                "showCanvasBorder": "0",
+                                "showPlotBorder": "0",
+                                "showAlternateHGridColor": "0",
+                                "usePlotGradientColor": "0",
+                                "paletteColors": "#6AC1A5",
+                                "showValues": "0",
+                                "divLineAlpha": "5",
+                                "showAxisLines": "1",
+                                "drawAnchors": "0",
+                                "xAxisLineColor": "#8C8C8C",
+                                "xAxisLineThickness": "0.7",
+                                "xAxisLineAlpha": "50",
+                                "yAxisLineColor": "#8C8C8C",
+                                "yAxisLineThickness": "0.7",
+                                "yAxisLineAlpha": "50",
+                                "baseFontColor": "#8C8C8C",
+                                "toolTipBgColor": "#FA8D67",
+                                "toolTipPadding": "10",
+                                "toolTipColor": "#FFFFFF",
+                                "toolTipBorderRadius": "3",
+                                "toolTipBorderAlpha": "0",
+                                "drawCrossLine": "1",
+                                "crossLineColor": "#8C8C8C",
+                                "crossLineAlpha": "60",
+                                "crossLineThickness": "0.7",
+                                "alignCaptionWithCanvas": "1"
+                            },
+                            "data": cdata
+                        }
+                    });
+                    firebaseChart.render();
+                    }
+                  </script>
+    </body>
+</html>

@@ -1,0 +1,116 @@
+Yes Internet
+ G1: 11
+ G2: 10
+ G2: 10
+No Internet
+ G1: 10
+ G2: 9
+ G2: 9
+1 Fail: 
+ G1: 9
+ G2: 9
+ G3: 8
+2 Fail: 
+ G1: 8
+ G2: 7
+ G3: 6
+3 Fail: 
+ G1: 6
+ G2: 6
+ G3: 5
+Otherwise: 
+ G1: 11
+ G2: 11
+ G3: 11
+<2 hours study
+ G1: 10
+ G2: 10
+ G3: 10
+2-5 hours study
+ G1: 10
+ G2: 10
+ G3: 10
+5-10 hours study
+ G1: 12
+ G2: 11
+ G3: 11
+>10 hours study
+ G1: 11
+ G2: 12
+ G3: 11
+0-9 Absenses
+ G1: 10
+ G2: 10
+ G3: 10
+10-19 Absenses
+ G1: 10
+ G2: 10
+ G3: 10
+20-29 Absenses
+ G1: 11
+ G2: 11
+ G3: 11
+30-39 Absenses
+ G1: 8
+ G2: 8
+ G3: 8
+40-49 Absenses
+ G1: 13
+ G2: 11
+ G3: 11
+50-59 Absenses
+ G1: 10
+ G2: 10
+ G3: 9
+60-69 Absenses
+ G1: 0
+ G2: 0
+ G3: 0
+70-79 Absenses
+ G1: 10
+ G2: 9
+ G3: 9
+80-89 Absenses
+ G1: 0
+ G2: 0
+ G3: 0
+90-93 Absenses
+ G1: 0
+ G2: 0
+ G3: 0
+very bad health
+ G1: 11
+ G2: 12
+ G3: 11
+below average health
+ G1: 11
+ G2: 11
+ G3: 10
+average health
+ G1: 10
+ G2: 10
+ G3: 10
+above average health
+ G1: 10
+ G2: 10
+ G3: 10
+very good health
+ G1: 10
+ G2: 10
+ G3: 10
+<15 min travel
+ G1: 11
+ G2: 11
+ G3: 10
+15-30 min travel
+ G1: 10
+ G2: 10
+ G3: 9
+30 min - 1 hour travel
+ G1: 10
+ G2: 9
+ G3: 9
+>1 hour travel
+ G1: 8
+ G2: 8
+ G3: 8

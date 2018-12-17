@@ -1,0 +1,147 @@
+[
+ {
+   "Yes Internet G1": "11",
+   "Yes Internet G2": "10",
+   "Yes Internet G3": "10"
+ },
+ {
+   "No Internet G1": "10",
+   "No Internet G2": "9",
+   "No Internet G3": "9"
+ },
+ {
+   "1 Fail G1": "9",
+   "1 Fail G2": "9",
+   "1 Fail G3": "8"
+ },
+ {
+   "2 Fail G1": "8",
+   "2 Fail G2": "7",
+   "2 Fail G3": "6"
+ },
+ {
+   "3 Fail G1": "6",
+   "3 Fail G2": "6",
+   "3 Fail G3": "5"
+ },
+ {
+   "Other Fail G1": "11",
+   "Other Fail G2": "11",
+   "Other Fail G3": "11"
+ },
+ {
+   "<2 hour study G1": "10",
+   "<2 hour study G2": "10",
+   "<2 hour study G3": "10"
+ },
+ {
+   "2-5 hours study G1": "10",
+   "2-5 hours study G2": "10",
+   "2-5 hours study G3": "10"
+ },
+ {
+   "5-10 hours stduy G1": "12",
+   "5-10 hours stduy G2": "11",
+   "5-10 hours stduy G3": "11"
+ },
+ {
+   ">10 hour study G1": "11",
+   ">10 hour study G2": "12",
+   ">10 hour study G3": "11"
+ },
+ {
+   "very bad health G1": "11",
+   "very bad health G2": "12",
+   "very bad health G3": "11"
+ },
+ {
+   "below average health G1": "11",
+   "below average health G2": "11",
+   "below average health G3": "10"
+ },
+ {
+   "average health G1": "10",
+   "average health G2": "10",
+   "average health G3": "10"
+ },
+ {
+   "above average health G1": "10",
+   "above average health G2": "10",
+   "above average health G3": "10"
+ },
+ {
+   "very good health G1": "10",
+   "very good health G2": "10",
+   "very good health G3": "10"
+ },
+ {
+   "< 15 min travel G1": "11",
+   "< 15 min travel G2": "11",
+   "< 15 min travel G3": "10"
+ },
+ {
+   "15-30 min travel G1": "10",
+   "15-30 min travel G2": "10",
+   "15-30 min travel G3": "9"
+ },
+ {
+   "30 min - 1 hour travel G1": "10",
+   "30 min - 1 hour travel G2": "9",
+   "30 min - 1 hour travel G3": "9"
+ },
+ {
+   "> 1 hour travel G1": "8",
+   "> 1 hour travel G2": "8",
+   "> 1 hour travel G3": "8"
+ },
+ {
+   "0-9 Absences G1": "10",
+   "0-9 Absences G2": "10",
+   "0-9 Absences G3": "10"
+ },
+ {
+   "10-19 Absences G1": "10",
+   "10-19 Absences G2": "10",
+   "10-19 Absences G3": "10"
+ },
+ {
+   "20-29 Absences G1": "11",
+   "20-29 Absences G2": "11",
+   "20-29 Absences G3": "11"
+ },
+ {
+   "30-39 Absences G1": "8",
+   "30-39 Absences G2": "8",
+   "30-39 Absences G3": "8"
+ },
+ {
+   "40-49 Absences G1": "13",
+   "40-49 Absences G2": "11",
+   "40-49 Absences G3": "11"
+ },
+ {
+   "50-59 Absences G1": "10",
+   "50-59 Absences G2": "10",
+   "50-59 Absences G3": "9"
+ },
+ {
+   "60-69 Absences G1": "0",
+   "60-69 Absences G2": "0",
+   "60-69 Absences G3": "0"
+ },
+ {
+   "70-79 Absences G1": "10",
+   "70-79 Absences G2": "9",
+   "70-79 Absences G3": "9"
+ },
+ {
+   "80-89 Absences G1": "0",
+   "80-89 Absences G2": "0",
+   "80-89 Absences G3": "0"
+ },
+ {
+   "90-93 Absences G1": "0",
+   "90-93 Absences G2": "0",
+   "90-93 Absences G3": "0"
+ }
+]
